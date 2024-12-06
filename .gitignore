@@ -1,0 +1,29 @@
+# -- General --
+.DS_Store
+Thumbs.db
+*.log
+
+# -- Node.js / React Native / Frontend --
+node_modules/
+npm-debug.log
+yarn-error.log
+/dist/
+/build/
+/.expo/
+/.expo-shared/
+
+# -- Android / iOS (si aplica) --
+android/app/build/
+ios/Pods/
+ios/build/
+
+# -- Python / Backend --
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# -- Cache & Editor-specific --
+.cache/
+.vscode/
+.idea/
